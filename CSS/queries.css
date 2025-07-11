@@ -1,0 +1,81 @@
+/* 1160:72 960:60  691:43 533:33*/
+/* 1rem=1em=16px;
+rem is root font size while em is current font size */
+
+@media (max-width: 72em)
+{
+  .hero{
+    max-width: 120rem;
+  }
+  .container{
+    max-width: 90rem;
+  }
+  .hero-title{
+    font-size: 3.2rem;
+  }
+  .testimonials-gallery{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .price{
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+  }
+  .pricing-plan{
+    gap:0.2rem;
+    justify-content: start;
+  }
+}
+@media (max-width: 60em)
+{
+
+  .html{
+    font-size: 52.25%;
+  }
+  .container{
+    max-width: 70rem;
+  }
+  .meals{
+    grid-template-columns: repeat(2,1fr);
+  }
+    .feature{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (max-width: 43em)
+{
+  .html{
+    font-size: 42.60%;
+  }
+  .featuredin{
+    margin-left:30%;
+    margin-bottom: -10%;
+  }
+  .testdesc{
+    line-height: 1.6rem;
+  }
+  .testimonials{
+    padding: 3rem;
+  }
+  .container{
+    max-width: 70rem;
+  }
+  .planprice span {
+    font-size: 3.2rem;
+  }
+  .plantext{
+font-size: 1.2rem;
+  }
+  .pricing-plan{
+    padding:2,4rem;
+  }
+}
+@media(max-width:33em)
+{
+  .container{
+    width:100rem;
+  }
+  .header{
+    width: 200%;
+     background-color: #fdf2e9;
+  }
+}

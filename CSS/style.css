@@ -248,3 +248,49 @@ header {
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
+
+.featurehead {
+  margin-left: 48%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  text-transform: uppercase;
+}
+.logoss {
+  display: flex;
+  max-width: 1000rem;
+  justify-content: space-evenly;
+}
+.logoss img {
+  width: 8%;
+  height: auto;
+}
+.logoss img:nth-child(3) {
+  width: 12%;
+  height: auto;
+}
+
+.meals {
+  justify-content: space-evenly;
+  gap: 4rem;
+}
+.meal img {
+  width: 100%;
+  height: auto;
+}
+.mealname {
+  font-size: 2.4rem;
+  margin-left: 10%;
+}
+.meall {
+  background-color: antiquewhite;
+  padding: 3%;
+  line-height: 4.2rem;
+}
+.mealdesc {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.6rem;
+  align-items: center;
+}

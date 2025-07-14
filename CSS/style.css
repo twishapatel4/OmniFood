@@ -29,6 +29,12 @@ header {
   display: grid;
   gap: 9.6rem 9/6rem;
 }
+.grid:last-child{
+  margin-bottom: 0;;
+}
+.grid:not(:last-child){
+  margin-bottom: 9.6rem;
+}
 .grid--2-col {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -361,5 +367,156 @@ font-size: 1.8rem;
   border-bottom: none;
 }
 .center-text{
+  text-align: center;
+}
+
+.testimonials-gallery{
+  padding: 6rem;
+   background-color: #fdf2e9;
+  display:grid;
+  grid-template-columns: 60fr 40fr;
+  gap:1rem;
+  align-items: center;
+  margin-bottom: 3.6rem;
+}
+.testimonials{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap:4.8rem;
+  column-gap:8rem;
+  padding:12.8rem
+}
+.testimg{
+  width:6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.testdesc{
+
+  font-size:1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+.test-user{
+    margin-top: 1.6rem;
+  font-size: 1.6rem;
+  color:#777
+}
+.gal-item{
+  overflow: hidden;
+}
+.gal-item img{
+  display: block;
+  width:100%;
+  transition: all 0.3s;
+}
+.gallery{
+  display: grid ;
+  grid-template-columns:repeat(3,1fr) ;
+  gap:1.6rem;
+}
+.gal-item img:hover{
+  /* transform: rotate(30deg); */
+  transform: scale(1.2);
+}
+.pricing-feature{
+  padding: 6.4rem 0;
+}
+.list svg{
+  stroke: #e67e22;
+}
+.pricing-plan{
+  margin-bottom: 4.8rem;
+  text-align: center;
+  gap:2.4rem;
+}
+.planname{
+  color:#cf711f;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.6rem;
+}
+.planprice{
+  font-size: 7.4rem;
+  font-weight: 600;
+  color:#333;
+  margin-bottom: 1.6rem;
+}
+.planprice span{
+  font-size: 3rem;
+  font-weight: 500;
+  margin:0.8rem;
+}
+.plantext{
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color:#6f6f6f
+}
+.plansignup{
+  text-align: center;
+  margin-top: 4.2rem;
+}
+.price{
+  gap:16rem;
+}
+.pricing-plan{
+  /* background-color: #fdf2e9; */
+  border-radius: 11px;
+  width:75%;
+  padding:4.8rem;
+}
+.plan-start{
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+}
+.plan-comp{
+  background-color: #fdf2e9;
+  position:relative;
+  overflow: hidden;
+}
+.plan-comp::after{
+  content: "Best Plan";
+  position: absolute;
+  top:3%;
+  right:-10%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #ffd4b3 ;
+  padding: 0.8rem 3.4rem;
+  transform:rotate(45deg);
+}
+
+.feature{
+  padding:2.0rem;
+}
+
+.feature svg{
+width:3.0rem;
+height:3.0rem;
+}
+.feature img{
+  height: 3rem;;
+  width: auto;
+}
+.feature-icon{
+  color:#e67e22;
+  background-color: #fdf2e9;
+}
+.feature-title{
+font-size: 2.4rem;
+color:#333;
+font-weight: 700;
+margin-bottom: 1.6rem;
+}
+.feattext{
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.plandet{
+  font-size: 1.4rem;
+  line-height: 1.6;
   text-align: center;
 }

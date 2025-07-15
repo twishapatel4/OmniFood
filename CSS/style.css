@@ -17,7 +17,6 @@ header {
   justify-content: space-between;
   background-color: #fdf2e9;
   align-items: center;
-  gap:4rem;
   height: 9.6rem;
   padding: 0 4.8rem;
 }
@@ -49,13 +48,13 @@ header {
   grid-template-columns: repeat(5, 1fr);
 }
 .hero {
-  max-width:120rem;
+  max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 2rem auto;
+  /* margin: 2rem auto; */
   align-items: center;
   background-color: #fdf2e9;
-  padding: 2rem 8rem;
+  padding: 2rem 14rem;
 }
 .hero-title {
   font-size: 4.2rem;
@@ -298,10 +297,10 @@ header {
   transform: translateY(1rem);
 }
 .meallist{
-  padding:4rem;
+  padding:6rem;
 }
 .mealname {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-left: 20%;
   padding: 2rem 0;
   color:#333;
@@ -310,7 +309,7 @@ header {
 }
 .meall {
   background-color: antiquewhite;
-  line-height: 3.8rem;
+  line-height: 4.2rem;
   display: flex;;
   flex-direction: column;
   gap:1.2rem;
@@ -346,7 +345,7 @@ strong{
     display: flex;
     flex-direction: column;
   /* align-items:center; */
-  gap:1.2rem
+  gap:1.8rem
 }
 
 .margin-bottom-md{
@@ -386,9 +385,9 @@ font-size: 1.8rem;
 .testimonials{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap:2.4rem;
-  column-gap:4rem;
-  padding:6.4rem
+  row-gap:4.8rem;
+  column-gap:8rem;
+  padding:12.8rem
 }
 .testimg{
   width:6.4rem;
@@ -397,7 +396,7 @@ font-size: 1.8rem;
 }
 .testdesc{
 
-  font-size:1.4rem;
+  font-size:1.8rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
 }
@@ -432,7 +431,7 @@ font-size: 1.8rem;
 .pricing-plan{
   margin-bottom: 4.8rem;
   text-align: center;
-  gap:1.2rem;
+  gap:2.4rem;
 }
 .planname{
   color:#cf711f;
@@ -443,13 +442,13 @@ font-size: 1.8rem;
   margin-bottom: 3.6rem;
 }
 .planprice{
-  font-size: 6.4rem;
+  font-size: 7.4rem;
   font-weight: 600;
   color:#333;
   margin-bottom: 1.6rem;
 }
 .planprice span{
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
   margin:0.8rem;
 }
@@ -472,12 +471,11 @@ font-size: 1.8rem;
   padding:4.8rem;
 }
 .plan-start{
-  justify-self: center;
+  justify-self: end;
   border: 2px solid #fdf2e9;
 }
 .plan-comp{
   background-color: #fdf2e9;
-  justify-self: center;
   position:relative;
   overflow: hidden;
 }
@@ -495,8 +493,7 @@ font-size: 1.8rem;
 }
 
 .feature{
-  padding:0.8rem;
-  margin-top: 2.0rem;
+  padding:2.0rem;
 }
 
 .feature svg{
@@ -529,22 +526,21 @@ margin-bottom: 1.6rem;
 
 
 .ctasec{
-  padding:4.8rem 0 12.8rem; 
+  padding:9.6rem 0;
 }
 .cta{
   display: grid;
   grid-template-columns: 2fr 1fr;
   background-color: #e67e22;
   box-shadow:0 2.4rem 4.8rem rgba(0,0,0,0.15);
-  overflow: hidden;
   /* gap:1.4rem */
   border-radius: 11px;;
-  /* height:55rem; */
+  height: 50rem;
   background-image:linear-gradient(to right bottom,#eb984e,#e67e22);
 }
 
 .cta-textbox{
-padding:3.6rem 6.4rem 6.4rem 6.4rem;
+padding:4.8rem 6.4rem 6.4rem 6.4rem;
 color:#45260a;
 }
 .cta-imgbox{
@@ -557,7 +553,7 @@ color:#45260a;
   color: #45260a;
 }
 .ctatext{
-  line-height: 1.4;
+  line-height: 1.8;
   font-size: 1.8rem;
   margin-bottom: 4.8rem;
 }
@@ -610,9 +606,9 @@ color:#45260a;
   outline:none;
 } */
 .footer{
-  padding: 8.4rem 0;
+  padding: 9.6rem 0;
   /* background-color: #f0a665; */
-    /* padding: 12.8rem 0; */
+    padding: 12.8rem 0;
   border-top: 1px solid #eee;
 }
 .logo-col {
@@ -672,14 +668,10 @@ color:#45260a;
   line-height: 1.6;
   margin-bottom: 2.4rem;
 }
-footer .grid{
-  column-gap: 3.2rem; /* reduced horizontal space */
-  row-gap: 2.4rem;
-}
+
 
 .grid--footer {
-  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;row-gap: 0.2rem;
-
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
 .logo-col {

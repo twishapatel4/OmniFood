@@ -11,10 +11,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="CSS/style.css" />
+
+     <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header class="header">
-      <img class="logo" alt="Omnifood" src="img/omnifood-logo.png" />
+      <a href="#">
+      <img class="logo" alt="Omnifood" src="img/omnifood-logo.png" /></a> 
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="nav-link" href="#"> Section 1 </a></li>
@@ -409,7 +419,94 @@ Get access to latest recipes</li>
 <p class="feature-title">Pause anytime: </p>
           <p class="feattext">Going on vacation? Just pause your subscription, and we refund unused days.</p></div>
         </div>
-      </section>  
+      </section>
+      
+      <section class="ctasec">
+        <div class="container ">
+          <div class="cta">
+          <div class="cta-textbox"><h2 class="heading2">Get your first meal for free !</h2>
+          <p class="ctatext">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
+          <form class="cta-form" action="#">
+            
+            <label for="name">Full Name:</label><input id="name" type="text" placeholder="John Smith" required/>
+            <label for="email">Email Address:</label><input required id="email" type="email" placeholder="me@gmail.com"/>
+            <label for="where">Where did you hear about  us??</label> 
+            <select required id="where">
+              <option value="">Select One</option>
+              <option value="friends">Friends</option>
+              <option value="family">Family</option>
+              <option value="youtube">YouTube</option>
+               <option value="Podcast">Podcast</option>
+                <option value="facebook">Facebook</option>
+                 <option value="others">Others</option>
+            </select>
+            <button class="btn btn--form" type="submit">Sign Up now</button>
+          </form>
+          </div>
+          <div class="cta-imgbox" role="img" aria-label="Woman enjoying food"></div>
+        </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class=" container grid grid--5-col">
+        <div class="logo-col grid-footer">
+          <div><a href="#" ><img class="logo" alt="Omnifood" src="img/omnifood-logo.png" /></a> </a>
+          </div><div><ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul> </div><div>
+        <p>Copyright &copy; by OmniFood, Inc. All rights reserved.</p></div></div>
+        <div class="add-col grid--footer">
+        <div> <p class="footerhead">Contact Us: </p> <p  class="contacts">623 Harrison St., 2nd Floor, San Francisco, CA 94107 </p></div>
+        
+        <div><a class="footer-link" href="tel:415-201-6370">415-201-6370</a>
+        <a class="footer-link" href="mailto:hello@omnifood.com">hello@omnifood.com</a></div></div>
+        <nav class="accounts">
+            <p class="footerhead">Company: </p>
+              <ul class="footernav">
+                <li><a  class="footer-link" href="#">About Omnifood</a></li>
+                <li><a class="footer-link" href="#">For Business</a></li>
+                <li><a class="footer-link" href="#">Cooking Partners</a></li>
+                <li><a class="footer-link" href="#">Careers</a></li>
+              </ul>
+            </p>
+          </nav>
+          <nav class="accounts">
+            <p class="footerhead">Account: </p>
+              <ul class="footernav">
+                <li><a class="footer-link"  href="#">Create Account</a></li>
+                <li><a class="footer-link" href="#">Sign In</a></li>
+                <li><a class="footer-link" href="#">IoS App</a></li>
+                <li><a class="footer-link" href="#">Android App</a></li>
+              </ul>
+            </p>
+          </nav>
+          <nav class="accounts">
+            <p class="footerhead">Resources: </p>
+              <ul class="footernav">
+                <li><a class="footer-link" href="#">Recipe Directory</a></li>
+                <li><a class="footer-link" href="#">Help Center</a></li>
+                <li><a class="footer-link" href="#">Cooking Partners</a></li>
+                <li><a class="footer-link" href="#">Privacy & Terms</a></li>
+              </ul>
+            </p>
+          </nav>
+      </div>
+    </footer>
   </body>
 </html>
